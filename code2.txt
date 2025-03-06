@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct User{
+    int id;
+    char name[100];
+    int balance;
+};
+void main(){
+    struct User user1={100, "dharini",1200};
+    printf("%d", user1.id);
+    printf("%s", user1.name);
+    printf("%d",user1.balance);
+}
